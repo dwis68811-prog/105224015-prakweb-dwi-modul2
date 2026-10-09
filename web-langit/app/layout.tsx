@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
- title: "Nama Produk",
- description: "Deskripsi singkat produk dalam satu kalimat.",
+  title: "port0folio_dwi",
+  description: "dwi setiawan",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="id"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      lang="en"
+      className={'${geistSans.variable} ${geistMono.variable} h-full antialiased'}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
